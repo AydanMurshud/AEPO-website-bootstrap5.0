@@ -11,20 +11,20 @@
             width: 240px;
             height: 48px;
             margin: 0 1rem 0 1rem;
-            background-color: #FFFFFF;
-            border: 1px solid #d1d2d3;
-            border-radius: 1px;
+            border: 1px solid #c9c9c9;
         }
 
         .btn-hover:hover {
-            background-color: #f7f7f7;
-            box-shadow: 10px 2px 50px 1px rgb(192, 192, 192);
+            background-color: #FFFFFF;
+            box-shadow: 0px 0px 40px #c9c9c9;
             border: 1px solid #d1d2d3
         }
 
         .btn-hover:focus {
             background-color: #313F48;
             color: #FFFFFF;
+            box-shadow: 0px 0px 40px #c9c9c9;
+            border: 1px solid #d1d2d3
         }
 
         .btn-hover:disabled {
@@ -73,11 +73,11 @@
         <div class="col-6 d-none d-sm-none d-md-none d-lg-flex justify-content-center align-items-center">
             <nav class="d-flex col-12 align-items-center justify-content-center">
                 <ul class="row m-0 d-flex justify-content-around">
-                    <li class="col-2 fs-6 fw-semibold list-unstyled text-muted menu-element">HOME</li>
-                    <li class="col-2 fs-6 fw-semibold list-unstyled text-muted menu-element">WORK</li>
-                    <li class="col-2 fs-6 fw-semibold list-unstyled text-muted menu-element">ABOUT</li>
-                    <li class="col-2 fs-6 fw-semibold list-unstyled text-muted menu-element">BLOG</li>
-                    <li class="col-2 fs-6 fw-semibold list-unstyled text-muted menu-element">CONTACT</li>
+                    <li class="col-2 fs-6 fw-semibold list-unstyled menu-element menu-element-active">HOME</li>
+                    <li class="col-2 fs-6 fw-semibold list-unstyled menu-element">WORK</li>
+                    <li class="col-2 fs-6 fw-semibold list-unstyled menu-element">ABOUT</li>
+                    <li class="col-2 fs-6 fw-semibold list-unstyled menu-element">BLOG</li>
+                    <li class="col-2 fs-6 fw-semibold list-unstyled menu-element">CONTACT</li>
                 </ul>
             </nav>
         </div>
@@ -108,19 +108,15 @@
                 <div class="offcanvas-body">
                     <ul class="col-12 d-flex flex-column align-items-center justify-content-around">
                         <li
-                            class="col-12 my-3 d-flex justify-content-center fs-4 fw-semibold list-unstyled text-muted menu-element">
+                            class="col-12 my-3 d-flex justify-content-center list-unstyled menu-element menu-element-active">
                             HOME</li>
-                        <li
-                            class="col-12 my-3 d-flex justify-content-center fs-4 fw-semibold list-unstyled text-muted menu-element">
+                        <li class="col-12 my-3 d-flex justify-content-center list-unstyled menu-element">
                             WORK</li>
-                        <li
-                            class="col-12 my-3 d-flex justify-content-center fs-4 fw-semibold list-unstyled text-muted menu-element">
+                        <li class="col-12 my-3 d-flex justify-content-center list-unstyled menu-element">
                             ABOUT</li>
-                        <li
-                            class="col-12 my-3 d-flex justify-content-center fs-4 fw-semibold list-unstyled text-muted menu-element">
+                        <li class="col-12 my-3 d-flex justify-content-center list-unstyled menu-element">
                             BLOG</li>
-                        <li
-                            class="col-12 my-3 d-flex justify-content-center fs-4 fw-semibold list-unstyled text-muted menu-element">
+                        <li class="col-12 my-3 d-flex justify-content-center list-unstyled menu-element">
                             CONTACT</li>
                     </ul>
                 </div>
@@ -176,15 +172,10 @@
     <div class="container-fluid bg-secondary mb-5 row p-3">
         <div class="container-lg mt-3 col-lg-8">
             <h4 class="text-center mt-5">WE ARE AEPO</h4>
-            <p class="text-muted text-center px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste
-                provident sed culpa quis facere! Inventore ea totam, suscipit quis ducimus in eligendi blanditiis cum
-                architecto nihil commodi sapiente pariatur, atque nulla, veritatis omnis voluptatem! Nemo distinctio
-                eaque
-                eius eum voluptates neque porro est deserunt ad, velit ipsum quidem cumque quisquam veritatis quos vero
-                sapiente, incidunt quia ipsam dignissimos. Repellat accusantium eius sint nesciunt provident sit
-                nostrum,
-                cupiditate aliquam possimus, deserunt odit, tempore corrupti voluptatem architecto? Magnam distinctio
-                doloribus veniam?</p>
+            <p class="text-center px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae adipisci
+                obcaecati consequuntur tempore molestias tempora commodi ipsam quisquam velit sed saepe ab modi,
+                molestiae corporis nemo, cum veritatis itaque. Corporis tenetur voluptates dolores, blanditiis nobis
+                aliquam possimus quaerat, vero nostrum facilis explicabo eaque reiciendis?</p>
         </div>
     </div>
     <!-- /WE ARE AEPO -->
@@ -192,7 +183,8 @@
     <!-- LATEST POSTS -->
     <div class="container-fluid row bg-success justify-content-center align-items-center p-0 mb-5">
         <h4 class="text-center mt-5 mb-5">LATEST POSTS</h4>
-        <div class="container-fluid bg-success d-none d-sm-none d-md-flex col-lg-10 justify-content-around m-5 p-3">
+        <div
+            class="container-fluid bg-success d-none d-sm-none d-md-flex col-lg-10 col-md-8 justify-content-around m-5 p-3">
             <div class="col-4 m-3 p-0 d-flex justify-content-center">
                 <div class="img-container">
                     <img class="img-fluid" src="/img/9.jpg" alt="">
@@ -249,7 +241,7 @@
                         <img src="/img/5.jpg" alt="" class="d-block w-100">
                         <div class="carousel-caption">
                             <h3>OREGON STORM</h3>
-                            <p>05 Sep 2016</p>
+                            <p class="text-secondary">05 Sep 2016</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem est odit veritatis
                                 molestiae in!</p>
                             <a class="text-secondary" href="#">READ ALL</a>
@@ -334,13 +326,13 @@
     <!-- /OUR CLIENTS -->
 
     <!-- FORM OUR CLIENTS -->
-    <div class="container-sd d-flex flex-column align-items-center col-lg-11 p-0">
+    <div class="container-sd d-flex flex-column align-items-center col-lg-11 col-sm-12 p-0">
         <div id="carouselControl3" class="carousel slide mb-1" data-bs-ride="carousel">
             <h4 class="text-center p-5">FROM OUR CLIENTS</h4>
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselControl3" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselControl3" data-bs-slide-to="1" class="btn btn-secondary"
+                <button type="button" data-bs-target="#carouselControl3" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselControl3" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
@@ -348,7 +340,8 @@
             <div class="carousel-inner mb-5">
                 <div class="carousel-item active">
                     <div class="container-fluid d-flex flex-column align-items-center col-lg-10 mb-5">
-                        <div class="container-lg d-flex justify-content-around m-0 col-7">
+                        <div
+                            class="container-lg d-flex justify-content-around m-0 col-12 col-sm-12 col-lg-10 col-md-10">
                             <img class="img-fluid" src="/img/profilepic.png" alt="">
                             <blockquote class="blockquote">
                                 <p class="text-start fst-italic ms-3">"Lorem ipsum dolor sit amet consectetur
@@ -357,13 +350,14 @@
                                     minus quos, ipsa nesciunt aliquam natus sed debitis quia provident ratione."</p>
                             </blockquote>
                         </div>
-                        <p class="text-center text-muted me-5"><strong>Joel Holmes</strong> Director of Photography /
+                        <p class="text-center tv text-muted me-5"><strong>Joel Holmes</strong> Director of Photography /
                             HBO</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container-fluid d-flex flex-column align-items-center col-lg-10 mb-5">
-                        <div class="container-lg d-flex justify-content-around m-0 col-7">
+                        <div
+                            class="container-lg d-flex justify-content-around m-0 col-12 col-sm-12 col-lg-10 col-md-10">
                             <img class="img-fluid" src="/img/profilepic.png" alt="">
                             <blockquote class="blockquote">
                                 <p class="text-start fst-italic ms-3">"Lorem ipsum dolor sit amet consectetur
@@ -372,13 +366,14 @@
                                     minus quos, ipsa nesciunt aliquam natus sed debitis quia provident ratione."</p>
                             </blockquote>
                         </div>
-                        <p class="text-center text-muted me-5"><strong>Joel Holmes</strong> Director of Photography /
+                        <p class="text-center tv text-muted me-5"><strong>Joel Holmes</strong> Director of Photography /
                             HBO</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container-fluid d-flex flex-column align-items-center col-lg-10 mb-5">
-                        <div class="container-lg d-flex justify-content-around m-0 col-7">
+                        <div
+                            class="container-lg d-flex justify-content-around m-0 col-12 col-sm-12 col-lg-10 col-md-10">
                             <img class="img-fluid" src="/img/profilepic.png" alt="">
                             <blockquote class="blockquote">
                                 <p class="text-start fst-italic ms-3">"Lorem ipsum dolor sit amet consectetur
@@ -387,7 +382,7 @@
                                     minus quos, ipsa nesciunt aliquam natus sed debitis quia provident ratione."</p>
                             </blockquote>
                         </div>
-                        <p class="text-center text-muted me-5"><strong>Joel Holmes</strong> Director of Photography /
+                        <p class="text-center tv text-muted me-5"><strong>Joel Holmes</strong> Director of Photography /
                             HBO</p>
                     </div>
                 </div>
@@ -406,9 +401,9 @@
 
     <!-- HOW WAS THAT -->
     <div class="container-fluid bg-success gy-3 mb-5 d-flex justify-content-center">
-        <div class="container-fluid row mt-5 p-5 d-flex justify-content-center">
+        <div class="container-lg row mt-5 p-5 d-flex justify-content-center">
             <h4 class="text-center my-3">HOW WAS THAT</h4>
-            <p class="text-center mb-5 col-8">
+            <p class="text-center mb-5 col-lg-8">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates numquam impedit, nesciunt ea ut
                 explicabo neque repellendus modi recusandae minus veritatis deleniti expedita dolore fugiat alias
                 voluptatem. Sequi beatae nisi nostrum quod quos ut optio consectetur modi iusto, perspiciatis quasi! A
@@ -425,65 +420,108 @@
             </div>
         </div>
     </div>
-    <div class="accordion" id="accordionExample">
+    <!-- FORM -->
+    <div class="accordion container-lg col-8 mb-3" id="accordionExample">
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-            </h2>
+            <h2 class="accordion-header" id="headingOne"></h2>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <p class="text-center">FORM HERE</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nameInput" class="form-label ">Name</label>
+                            <input type="name" class="form-control form-text-area" id="nameInput">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control form-text-area" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control form-text-area" id="message" rows="3"></textarea>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
+    <!-- /FORM -->
 
-        <!-- /HOW WAS THAT -->
+    <!-- /HOW WAS THAT -->
+    <div class="container-fluid d-xl-flex d-lg-flex d-md-flex d-sm-none d-none justify-content-center">
+        <ul class="container-md d-flex justify-content-around">
+            <li class="col-1 d-flex justify-content-center pg pg-active">1</li>
+            <li class="col-1 d-flex justify-content-center pg">2</li>
+            <li class="col-1 d-flex justify-content-center pg">3</li>
+            <li class="col-1 d-flex justify-content-center pg">4</li>
+            <li class="col-1 d-flex justify-content-center pg">5</li>
+            <li class="col-1 d-flex justify-content-center pg">6</li>
+            <li class="col-1 d-flex justify-content-center pg">7</li>
+            <li class="col-1 d-flex justify-content-center pg">8</li>
+            <li class="col-1 d-flex justify-content-center pg">9</li>
+            <li class="col-1 d-flex justify-content-center pg">10</li>
+        </ul>
+    </div>
 
-        <!-- FOOTER -->
-        <footer class="container-fluid row d-flex flex-column align-items-center my-5">
-            <div class="row my-5">
-                <svg width="36px" height="36px" viewBox="0 0 28 26" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
-                    <title>AEPO Logo - Footer</title>
-                    <desc>Created with Sketch.</desc>
-                    <defs></defs>
-                    <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="HOME" transform="translate(-587.000000, -3599.000000)" fill="#313F48">
-                            <g id="FOOTER" transform="translate(370.000000, 3599.000000)">
-                                <g id="AEPO-Logo---Footer" transform="translate(216.000000, 0.000000)">
-                                    <polygon id="Rectangle-121"
-                                        transform="translate(11.604088, 14.863943) rotate(-330.000000) translate(-11.604088, -14.863943) "
-                                        points="7.01498654 0.783815945 15.5101772 5.83766373 16.1931901 23.9440695 7.48870709 28.9440695">
-                                    </polygon>
-                                    <polygon id="Rectangle-121-Copy"
-                                        transform="translate(20.041266, 19.236538) scale(-1, 1) rotate(-330.000000) translate(-20.041266, -19.236538) "
-                                        points="15.3917468 10.1008031 24.6058485 18.0600951 24.6907848 23.2072092 15.7446324 28.3722726">
-                                    </polygon>
-                                </g>
+    <!-- FOOTER -->
+    <footer class="container-lg row d-flex flex-column align-items-center col-md-8">
+        <div class="row">
+            <svg width="36px" height="36px" viewBox="0 0 28 26" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+                <title>AEPO Logo - Footer</title>
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="HOME" transform="translate(-587.000000, -3599.000000)" fill="#313F48">
+                        <g id="FOOTER" transform="translate(370.000000, 3599.000000)">
+                            <g id="AEPO-Logo---Footer" transform="translate(216.000000, 0.000000)">
+                                <polygon id="Rectangle-121"
+                                    transform="translate(11.604088, 14.863943) rotate(-330.000000) translate(-11.604088, -14.863943) "
+                                    points="7.01498654 0.783815945 15.5101772 5.83766373 16.1931901 23.9440695 7.48870709 28.9440695">
+                                </polygon>
+                                <polygon id="Rectangle-121-Copy"
+                                    transform="translate(20.041266, 19.236538) scale(-1, 1) rotate(-330.000000) translate(-20.041266, -19.236538) "
+                                    points="15.3917468 10.1008031 24.6058485 18.0600951 24.6907848 23.2072092 15.7446324 28.3722726">
+                                </polygon>
                             </g>
                         </g>
                     </g>
-                </svg>
-            </div>
-            <div class="row my-5">
-                <h6 class="text-center">All rights reserved.2016 AEPO inc.</h6>
-            </div>
-            <div class="container-fluid d-flex justify-content-center col-6">
-                <ul class="col-12 d-flex justify-content-around">
-                    <li class="col-2 list-unstyled">HOME</li>
-                    <li class="col-2 list-unstyled">WORK</li>
-                    <li class="col-2 list-unstyled">ABOUT</li>
-                    <li class="col-2 list-unstyled">BLOG</li>
-                    <li class="col-2 list-unstyled">CONTACT</li>
-                    <li class="col-2 list-unstyled">FAQ</li>
-                    <li class="col-2 list-unstyled">LEGAL</li>
-                </ul>
-            </div>
-        </footer>
-        <!-- /FOOTER -->
+                </g>
+            </svg>
+        </div>
+        <div class="container-lg row my-5">
+            <p class="text-center tv">All rights reserved.2016 AEPO inc.</p>
+        </div>
+        <div class="container-lg d-flex justify-content-center col-lg-6 col-md-6 col-sm-12">
+            <ul class="col-lg-12 col-md-10 col-sm-12 d-flex justify-content-around">
+                <li
+                    class="col-lg-2 col-md-3 col-sm-1 text-muted d-flex justify-content-center list-unstyled tv menu-element menu-element-active">
+                    HOME</li>
+                <li
+                    class="col-lg-2 col-md-3 col-sm-1 text-muted d-flex justify-content-center list-unstyled tv menu-element">
+                    WORK</li>
+                <li
+                    class="col-lg-2 col-md-3 col-sm-1 text-muted d-flex justify-content-center list-unstyled tv menu-element">
+                    ABOUT</li>
+                <li
+                    class="col-lg-2 col-md-3 col-sm-1 text-muted d-flex justify-content-center list-unstyled tv menu-element">
+                    BLOG</li>
+                <li
+                    class="col-lg-2 col-md-3 col-sm-1 text-muted d-flex justify-content-center list-unstyled tv menu-element">
+                    CONTACT</li>
+                <li
+                    class="col-lg-2 col-md-3 col-sm-1 text-muted d-flex justify-content-center list-unstyled tv menu-element">
+                    FAQ</li>
+                <li
+                    class="col-lg-2 col-md-3 col-sm-1 text-muted d-flex justify-content-center list-unstyled tv menu-element">
+                    LEGAL</li>
+            </ul>
+        </div>
+    </footer>
+    <!-- /FOOTER -->
 
-        <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 
 </html>
